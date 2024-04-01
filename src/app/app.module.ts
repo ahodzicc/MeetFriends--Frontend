@@ -7,6 +7,8 @@ import { HeaderComponent } from './header/header.component';
 import { HomepageComponent } from './homepage/homepage.component';
 import { MeetUpConfirmationComponent } from './meet-up-confirmation/meet-up-confirmation.component';
 import { FooterComponent } from './footer/footer.component';
+import { LoginComponent } from './login/login.component';
+import { SignupComponent } from './signup/signup.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +16,9 @@ import { FooterComponent } from './footer/footer.component';
     HeaderComponent,
     HomepageComponent,
     MeetUpConfirmationComponent,
-    FooterComponent
+    FooterComponent,
+    LoginComponent,
+    SignupComponent
   ],
   imports: [
     BrowserModule,
