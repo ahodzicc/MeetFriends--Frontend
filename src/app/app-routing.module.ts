@@ -7,7 +7,7 @@ import {SignupComponent} from "./signup/signup.component";
 
 const routes: Routes = [
   {
-    path: "",
+    path: "H",
     component: HomepageComponent
   },
   {
@@ -15,7 +15,7 @@ const routes: Routes = [
   component: MeetUpConfirmationComponent
   },
   {
-    path: "L",
+    path: "",
     component: LoginComponent
   },
   {

@@ -9,6 +9,11 @@ import { MeetUpConfirmationComponent } from './meet-up-confirmation/meet-up-conf
 import { FooterComponent } from './footer/footer.component';
 import { LoginComponent } from './login/login.component';
 import { SignupComponent } from './signup/signup.component';
+import { provideAnimationsAsync } from '@angular/platform-browser/animations/async';
+import {MatTabsModule} from '@angular/material/tabs';
+import {FormsModule,ReactiveFormsModule} from "@angular/forms";
+import {LoginService} from "./services/login.service";
+
 
 @NgModule({
   declarations: [
@@ -17,15 +22,21 @@ import { SignupComponent } from './signup/signup.component';
     HomepageComponent,
     MeetUpConfirmationComponent,
     FooterComponent,
-    LoginComponent,
-    SignupComponent
+    SignupComponent,
+
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    MatTabsModule,
+    LoginComponent,
+    FormsModule,
+    ReactiveFormsModule,
   ],
   providers: [
-    provideClientHydration()
+    provideClientHydration(),
+    provideAnimationsAsync(),
+    LoginService,
   ],
   bootstrap: [AppComponent]
 })
