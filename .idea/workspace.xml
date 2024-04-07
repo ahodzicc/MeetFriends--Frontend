@@ -7,9 +7,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="79cb13fa-60ef-4c05-8fb1-0879285e4d4a" name="Changes" comment="Made login and signup into one component, added services">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="79cb13fa-60ef-4c05-8fb1-0879285e4d4a" name="Changes" comment="merge test" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -112,7 +110,7 @@
       <workItem from="1712414675132" duration="14372000" />
       <workItem from="1712522736914" duration="1301000" />
       <workItem from="1712525144271" duration="249000" />
-      <workItem from="1712526367094" duration="1354000" />
+      <workItem from="1712526367094" duration="1708000" />
     </task>
     <task id="LOCAL-00001" summary="Added Footer/Header/Homepage Updates">
       <option name="closed" value="true" />
@@ -138,7 +136,23 @@
       <option name="project" value="LOCAL" />
       <updated>1712524529136</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Made login and signup into one component, added services">
+      <option name="closed" value="true" />
+      <created>1712527767374</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1712527767374</updated>
+    </task>
+    <task id="LOCAL-00005" summary="merge test">
+      <option name="closed" value="true" />
+      <created>1712528071050</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1712528071050</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -202,6 +216,7 @@
     <MESSAGE value="Added login and signup screen" />
     <MESSAGE value="Actually added login and signup" />
     <MESSAGE value="Made login and signup into one component, added services" />
-    <option name="LAST_COMMIT_MESSAGE" value="Made login and signup into one component, added services" />
+    <MESSAGE value="merge test" />
+    <option name="LAST_COMMIT_MESSAGE" value="merge test" />
   </component>
 </project>
