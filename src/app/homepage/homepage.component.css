@@ -1,76 +1,43 @@
-/* Resetting default margin and padding */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-/* Basic styling for the container */
-.container {
-  display: flex;
-  justify-content: space-between;
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 20px;
+.mat-mdc-tab-group, .mat-mdc-tab-nav-bar {
+  --mat-tab-header-inactive-label-text-color: rgb(14 7 7 / 60%);
+  --mat-tab-header-inactive-hover-label-text-color: rgba(25, 154, 183);
+  --mat-tab-header-active-label-text-color: rgba(5, 93, 117);
+  --mat-tab-header-active-ripple-color: #53d4bd;
+  --mat-tab-header-inactive-ripple-color: #43c7ca;
+  --mat-tab-header-active-focus-label-text-color: rgba(5, 93, 117);
+  --mdc-tab-indicator-active-indicator-color: #5cd4d8;
+  --mat-tab-header-active-focus-indicator-color: #5cd4d8;
 }
 
-/* Sidebar styling */
-.sidebar {
-  width: 20%;
+.position{
+  display: grid;
+  grid-template-columns:  1fr 1fr 1fr;
+  gap: 10px;
 }
 
-/* Main content styling */
-.main-content {
-  width: 75%;
-}
-
-/* Button styling */
-.button {
-  display: block;
-  width: 100%;
-  padding: 10px;
-  margin-bottom: 10px;
-  background-color: #92C7CF;
-  color: #fff;
+.dugme{
+grid-column-start: 2;
+  background-color:#5cd4d8;
   border: none;
-  border-radius: 5px;
-  cursor: pointer;
+  color: white;
+  padding: 10px 24px;
   text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  border-radius: 10px;
 }
 
-/* Button hover effect */
-.button:hover {
-  background-color: #4a9da9;
-}
-
-/* Schedule styling */
-.schedule {
-  /* Add your styles for the schedule/calendar here */
-}
-
-/* Additional buttons styling */
-.buttons {
-  margin-top: 20px;
-}
-
-/* Responsive design */
-@media (max-width: 768px) {
-  .container {
-    flex-direction: column;
-  }
-  .sidebar, .main-content {
-    width: 100%;
-  }
-}
-table {
-  border-collapse: collapse;
-  width: 100%;
-}
-th, td {
-  border: 1px solid #dddddd;
-  text-align: left;
-  padding: 8px;
-}
-th {
-  background-color: #f2f2f2;
+.dugme:hover {
+  background-color: #92C7CF;
+  color: white;
 }

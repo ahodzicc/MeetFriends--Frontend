@@ -5,12 +5,12 @@ import {MeetUpConfirmationComponent} from "./meet-up-confirmation/meet-up-confir
 
 const routes: Routes = [
   {
-    path: "",
-    component: HomepageComponent
+    path: "home",
+    component: HomepageComponent,
   },
   {
-  path: "M",
-  component: MeetUpConfirmationComponent
+    path: 'meetup',
+    component: MeetUpConfirmationComponent
   }
 ];
 
