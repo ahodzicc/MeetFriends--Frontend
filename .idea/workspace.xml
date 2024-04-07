@@ -4,18 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="79cb13fa-60ef-4c05-8fb1-0879285e4d4a" name="Changes" comment="Changed the homepage, added angular materials and button that land on another pages&#10;Changed the meet up confirmation component with the add streak and streak increase&#10;Also on the meetup page are two parts of the grid that will be added when the base is connected&#10;The home page buttons are updated">
-      <change afterPath="$PROJECT_DIR$/src/app/features/homepage/homepage.component.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/services/meet-up-confirmation.services.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.angular/cache/17.3.2/pala/.tsbuildinfo" beforeDir="false" afterPath="$PROJECT_DIR$/.angular/cache/17.3.2/pala/.tsbuildinfo" afterDir="false" />
+    <list default="true" id="79cb13fa-60ef-4c05-8fb1-0879285e4d4a" name="Changes" comment="Added a service on the meet up confirmation to count the streak &#10;It doesn't appear on the web page but it shows up in the console&#10;In the home page there are 5 tabs that are all connected to the same thing when merging whith colleagues they will lead to their pages">
+      <change beforePath="$PROJECT_DIR$/.angular/cache/17.3.2/vite/deps/@angular_core.js" beforeDir="false" afterPath="$PROJECT_DIR$/.angular/cache/17.3.2/vite/deps/@angular_core.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.angular/cache/17.3.2/vite/deps/@angular_platform-browser.js" beforeDir="false" afterPath="$PROJECT_DIR$/.angular/cache/17.3.2/vite/deps/@angular_platform-browser.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.angular/cache/17.3.2/vite/deps/@angular_router.js" beforeDir="false" afterPath="$PROJECT_DIR$/.angular/cache/17.3.2/vite/deps/@angular_router.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.angular/cache/17.3.2/vite/deps/_metadata.json" beforeDir="false" afterPath="$PROJECT_DIR$/.angular/cache/17.3.2/vite/deps/_metadata.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/app-routing.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app-routing.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/homepage/homepage.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/features/homepage/homepage.component.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/homepage/homepage.component.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/homepage/homepage.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/features/homepage/homepage.component.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/meet-up-confirmation/meet-up-confirmation.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/meet-up-confirmation/meet-up-confirmation.component.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/meet-up-confirmation/meet-up-confirmation.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/meet-up-confirmation/meet-up-confirmation.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/services/meet-up-confirmation.services.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/services/meet-up-confirmation.services.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -129,7 +126,15 @@
       <option name="project" value="LOCAL" />
       <updated>1712489978231</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Added a service on the meet up confirmation to count the streak &#10;It doesn't appear on the web page but it shows up in the console&#10;In the home page there are 5 tabs that are all connected to the same thing when merging whith colleagues they will lead to their pages">
+      <option name="closed" value="true" />
+      <created>1712496114875</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1712496114875</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -186,6 +191,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added Footer/Header/Homepage Updates" />
     <MESSAGE value="Changed the homepage, added angular materials and button that land on another pages&#10;Changed the meet up confirmation component with the add streak and streak increase&#10;Also on the meetup page are two parts of the grid that will be added when the base is connected&#10;The home page buttons are updated" />
-    <option name="LAST_COMMIT_MESSAGE" value="Changed the homepage, added angular materials and button that land on another pages&#10;Changed the meet up confirmation component with the add streak and streak increase&#10;Also on the meetup page are two parts of the grid that will be added when the base is connected&#10;The home page buttons are updated" />
+    <MESSAGE value="Added a service on the meet up confirmation to count the streak &#10;It doesn't appear on the web page but it shows up in the console&#10;In the home page there are 5 tabs that are all connected to the same thing when merging whith colleagues they will lead to their pages" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added a service on the meet up confirmation to count the streak &#10;It doesn't appear on the web page but it shows up in the console&#10;In the home page there are 5 tabs that are all connected to the same thing when merging whith colleagues they will lead to their pages" />
   </component>
 </project>
