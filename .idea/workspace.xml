@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="79cb13fa-60ef-4c05-8fb1-0879285e4d4a" name="Changes" comment="The service shows on the localhost, when clicked &quot;yes&quot; the meet up streak increases, when clicked &quot;no&quot; it stays the same&#10;When reloading the page it returns the number to that is given in the service (50) - when connected to the base it would have other values">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="79cb13fa-60ef-4c05-8fb1-0879285e4d4a" name="Changes" comment="overwritten functions" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -141,7 +139,15 @@
       <option name="project" value="LOCAL" />
       <updated>1712497573120</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="overwritten functions">
+      <option name="closed" value="true" />
+      <created>1712524055539</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1712524055539</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -200,6 +206,7 @@
     <MESSAGE value="Changed the homepage, added angular materials and button that land on another pages&#10;Changed the meet up confirmation component with the add streak and streak increase&#10;Also on the meetup page are two parts of the grid that will be added when the base is connected&#10;The home page buttons are updated" />
     <MESSAGE value="Added a service on the meet up confirmation to count the streak &#10;It doesn't appear on the web page but it shows up in the console&#10;In the home page there are 5 tabs that are all connected to the same thing when merging whith colleagues they will lead to their pages" />
     <MESSAGE value="The service shows on the localhost, when clicked &quot;yes&quot; the meet up streak increases, when clicked &quot;no&quot; it stays the same&#10;When reloading the page it returns the number to that is given in the service (50) - when connected to the base it would have other values" />
-    <option name="LAST_COMMIT_MESSAGE" value="The service shows on the localhost, when clicked &quot;yes&quot; the meet up streak increases, when clicked &quot;no&quot; it stays the same&#10;When reloading the page it returns the number to that is given in the service (50) - when connected to the base it would have other values" />
+    <MESSAGE value="overwritten functions" />
+    <option name="LAST_COMMIT_MESSAGE" value="overwritten functions" />
   </component>
 </project>
