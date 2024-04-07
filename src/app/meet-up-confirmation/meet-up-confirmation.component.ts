@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+import { MeetUpConfirmationServices } from '../services/meet-up-confirmation.services';
+import { Subject } from 'rxjs/internal/Subject';
 
 @Component({
   selector: 'app-meet-up-confirmation',
@@ -6,14 +8,19 @@ import { Component } from '@angular/core';
   styleUrl: './meet-up-confirmation.component.css'
 })
 export class MeetUpConfirmationComponent {
-  meetupStreak: number = 0;
-
-  increaseStreak() {
-    this.meetupStreak++;
-    alert("Meetup streak increased to " + this.meetupStreak);
+  destroy$: Subject<any> = new Subject<any>();
+  changed:boolean=true;
+  constructor(private service:MeetUpConfirmationServices) {
   }
+  ngOnDestroy():void{
+    this.destroy$.next(true);
+    this.destroy$.complete();
+  }
+  increaseStreak() : void{
+    this.service.setBroj()
+  }
+  getStreak(){
+    return this.service.GetAllStreaks();
 
-  noMeetup() {
-    // No action needed if "No" is clicked, streak remains the same
   }
 }

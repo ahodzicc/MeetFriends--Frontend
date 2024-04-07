@@ -2,8 +2,7 @@
     <div class="row">
         <div class="part">
             <div class="container">
-                    <h2 class="streak">Your meetup streak: <span class="streak-count">{{ meetupStreak }}</span></h2>
-
+                    <h2 class="streak" >{{ getStreak() }}</h2>
             </div>
         </div>
         <div class="part">You have been meeting for how many days<br>*when connected to the base*</div>
@@ -14,7 +13,7 @@
             <div class="invitation">
                 <p>Did your meetup happen?</p>
                 <button class="accept-btn" (click)="increaseStreak()">Yes</button>
-                <button class="reject-btn" (click)="noMeetup()">No</button>
+                <button class="reject-btn" >No</button>
             </div>
         </div>
     </div>

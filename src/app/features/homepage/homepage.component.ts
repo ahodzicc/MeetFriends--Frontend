@@ -12,7 +12,7 @@ import { Router } from '@angular/router';
 })
 
 export class HomepageComponent implements OnInit{
-  constructor(private router: Router) { }
+  constructor(private router: Router,) { }
 
   ngOnInit(): void {
   }
@@ -20,5 +20,6 @@ export class HomepageComponent implements OnInit{
   redirectToMeetup(): void {
     this.router.navigate(['/meetup']);
   }
+
 
 }
